@@ -148,6 +148,16 @@ p {
   font-size: 18px;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-vertical {
+  flex-direction: column;
+}
+
 .display-font {
   font-family: "Archivo Black", sans-serif;
   text-align: center;
@@ -197,6 +207,17 @@ p {
 
 .footer p {
   margin-block: 4px;
+}
+
+.about {
+  padding-block: 30px;
+}
+
+.about p {
+  width: 70%;
+  margin-block: 15px;
+  text-align: center;
+  color: #f9fafb;
 }
 
 .reports {
